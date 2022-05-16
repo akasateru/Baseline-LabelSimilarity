@@ -19,8 +19,8 @@ Baseline-LabelSimilarity
     dbpedia_csv
         class.txt   14クラス。単語間にスペースを挿入。
         readme.txt
-        train.csv    各40,000　計70,000
-        test.csv   各5,000　計560,000
+        train.csv    各40,000　計560,000
+        test.csv   各5,000　計70,000
     from https://drive.google.com/uc?export=download&id=0Bz8a_Dbh9QhbQ2Vic1kxMmZZQ1k
     
 前処理：
@@ -31,6 +31,3 @@ Baseline-LabelSimilarity
 
 クラスのベクトル：
     文章中の単語の特徴量の和を単語数で割る
-
-閾値：
-    なし
