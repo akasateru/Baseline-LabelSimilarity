@@ -1,7 +1,7 @@
 # Baseline-LabelSimilarity
 
 ## 説明
-各カテゴリの特徴量と文章のn-gram（1,2,3）に対してコサイン類似度を計算。
+各カテゴリの特徴量と文章のn-gram（1,2,3）に対してコサイン類似度を計算。  
 コサイン類似度が最大のカテゴリへ分類。
 
 ## 学習済みWord2Vecモデル
@@ -11,9 +11,12 @@ https://github.com/mmihaltz/word2vec-GoogleNews-vectors
 
 ## テストデータ
 ### DBpediaデータセット
-DBpedia2014から14クラスを選択したもの。クラス情報は単語間にスペースを挿入。学習データは、各40,000、計560,000、テストデータは、各5,000、計70,000。
+DBpedia2014から14クラスを選択したもの。  
+クラス情報は単語間にスペースを挿入。  
+学習データは、各40,000、計560,000、テストデータは、各5,000、計70,000。  
 https://drive.google.com/uc?export=download&id=0Bz8a_Dbh9QhbQ2Vic1kxMmZZQ1k
-から取得。
+から取得。  
+class.txtは単語ごとに分割する。
 - dbpedia_csv
     - class.txt
     - readme.txt
